@@ -1,0 +1,4361 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Workspace
+   version = "1.0">
+   <FileRef
+      location = "group:buildspec.mk.default">
+   </FileRef>
+   <FileRef
+      location = "group:CleanSpec.mk">
+   </FileRef>
+   <Group
+      location = "group:core"
+      name = "core">
+      <FileRef
+         location = "group:product.mk">
+      </FileRef>
+      <FileRef
+         location = "group:install_jni_libs_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:raw_executable.mk">
+      </FileRef>
+      <FileRef
+         location = "group:java_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:proguard.flags">
+      </FileRef>
+      <FileRef
+         location = "group:static_test_lib.mk">
+      </FileRef>
+      <FileRef
+         location = "group:pdk_config.mk">
+      </FileRef>
+      <FileRef
+         location = "group:node_fns.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dex_preopt_libdvm.mk">
+      </FileRef>
+      <FileRef
+         location = "group:executable.mk">
+      </FileRef>
+      <FileRef
+         location = "group:static_java_library.mk">
+      </FileRef>
+      <Group
+         location = "group:tasks"
+         name = "tasks">
+         <FileRef
+            location = "group:factory_bundle.mk">
+         </FileRef>
+         <FileRef
+            location = "group:oem_image.mk">
+         </FileRef>
+         <FileRef
+            location = "group:cts.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk-addon.mk">
+         </FileRef>
+         <Group
+            location = "group:tools"
+            name = "tools">
+            <FileRef
+               location = "group:package-modules.mk">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:ide.mk">
+         </FileRef>
+         <Group
+            location = "group:check_boot_jars"
+            name = "check_boot_jars">
+            <FileRef
+               location = "group:package_whitelist.txt">
+            </FileRef>
+            <FileRef
+               location = "group:check_boot_jars.py">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:collect_gpl_sources.mk">
+         </FileRef>
+         <FileRef
+            location = "group:product-graph.mk">
+         </FileRef>
+         <FileRef
+            location = "group:boot_jars_package_check.mk">
+         </FileRef>
+         <FileRef
+            location = "group:apicheck.mk">
+         </FileRef>
+         <FileRef
+            location = "group:vendor_module_check.mk">
+         </FileRef>
+         <FileRef
+            location = "group:factory_ramdisk.mk">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:dumpvar.mk">
+      </FileRef>
+      <Group
+         location = "group:clang"
+         name = "clang">
+         <FileRef
+            location = "group:TARGET_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:arm.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_mips64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:config.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_x86_common.mk">
+         </FileRef>
+         <FileRef
+            location = "group:arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_arm.mk">
+         </FileRef>
+         <FileRef
+            location = "group:mips64.mk">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:host_static_library_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:static_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:build_id.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dex_preopt_libart_boot.mk">
+      </FileRef>
+      <FileRef
+         location = "group:base_rules.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_static_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_dalvik_java_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:clear_vars.mk">
+      </FileRef>
+      <FileRef
+         location = "group:shared_test_lib.mk">
+      </FileRef>
+      <FileRef
+         location = "group:product_config.mk">
+      </FileRef>
+      <FileRef
+         location = "group:notice_files.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dynamic_binary.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_java_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_test_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:target_test_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:Makefile">
+      </FileRef>
+      <FileRef
+         location = "group:module_arch_supported.mk">
+      </FileRef>
+      <FileRef
+         location = "group:configure_module_stem.mk">
+      </FileRef>
+      <FileRef
+         location = "group:filter_symbols.sh">
+      </FileRef>
+      <FileRef
+         location = "group:sdk_font.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_executable_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:proguard.emma.flags">
+      </FileRef>
+      <FileRef
+         location = "group:host_prebuilt.mk">
+      </FileRef>
+      <FileRef
+         location = "group:checktree">
+      </FileRef>
+      <FileRef
+         location = "group:host_shared_test_lib.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dex_preopt_odex_install.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_static_test_lib.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_shared_library_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:help.mk">
+      </FileRef>
+      <FileRef
+         location = "group:executable_prefer_symlink.mk">
+      </FileRef>
+      <FileRef
+         location = "group:main.mk">
+      </FileRef>
+      <FileRef
+         location = "group:prebuilt_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:root.mk">
+      </FileRef>
+      <FileRef
+         location = "group:setup_one_odex.mk">
+      </FileRef>
+      <FileRef
+         location = "group:shared_library_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:copy_headers.mk">
+      </FileRef>
+      <FileRef
+         location = "group:definitions.mk">
+      </FileRef>
+      <FileRef
+         location = "group:config.mk">
+      </FileRef>
+      <FileRef
+         location = "group:multilib.mk">
+      </FileRef>
+      <FileRef
+         location = "group:native_test.mk">
+      </FileRef>
+      <FileRef
+         location = "group:prebuilt.mk">
+      </FileRef>
+      <FileRef
+         location = "group:phony_package.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_shared_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:raw_static_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:shared_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:android_manifest.mk">
+      </FileRef>
+      <FileRef
+         location = "group:binary.mk">
+      </FileRef>
+      <FileRef
+         location = "group:proguard_basic_keeps.flags">
+      </FileRef>
+      <FileRef
+         location = "group:java.mk">
+      </FileRef>
+      <FileRef
+         location = "group:process_wrapper_gdb.sh">
+      </FileRef>
+      <FileRef
+         location = "group:dex_preopt.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dex_preopt_libart.mk">
+      </FileRef>
+      <FileRef
+         location = "group:dpi_specific_apk.mk">
+      </FileRef>
+      <FileRef
+         location = "group:package.mk">
+      </FileRef>
+      <FileRef
+         location = "group:envsetup.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_dalvik_static_java_library.mk">
+      </FileRef>
+      <FileRef
+         location = "group:legacy_prebuilts.mk">
+      </FileRef>
+      <FileRef
+         location = "group:host_native_test.mk">
+      </FileRef>
+      <FileRef
+         location = "group:install_jni_libs.mk">
+      </FileRef>
+      <FileRef
+         location = "group:cleanspec.mk">
+      </FileRef>
+      <FileRef
+         location = "group:cleanbuild.mk">
+      </FileRef>
+      <FileRef
+         location = "group:version_defaults.mk">
+      </FileRef>
+      <FileRef
+         location = "group:apicheck_msg_last.txt">
+      </FileRef>
+      <FileRef
+         location = "group:distdir.mk">
+      </FileRef>
+      <FileRef
+         location = "group:build-system.html">
+      </FileRef>
+      <FileRef
+         location = "group:host_java_library_common.mk">
+      </FileRef>
+      <FileRef
+         location = "group:process_wrapper.sh">
+      </FileRef>
+      <FileRef
+         location = "group:apicheck_msg_current.txt">
+      </FileRef>
+      <FileRef
+         location = "group:pathmap.mk">
+      </FileRef>
+      <FileRef
+         location = "group:find-jdk-tools-jar.sh">
+      </FileRef>
+      <FileRef
+         location = "group:multi_prebuilt.mk">
+      </FileRef>
+      <FileRef
+         location = "group:droiddoc.mk">
+      </FileRef>
+      <Group
+         location = "group:combo"
+         name = "combo">
+         <FileRef
+            location = "group:HOST_darwin-x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_linux-mips64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:javac.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_windows-x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_linux-x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_linux-x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:mac_version.mk">
+         </FileRef>
+         <Group
+            location = "group:include"
+            name = "include">
+            <Group
+               location = "group:arch"
+               name = "arch">
+               <Group
+                  location = "group:linux-arm"
+                  name = "linux-arm">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:linux-arm64"
+                  name = "linux-arm64">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:linux-mips"
+                  name = "linux-mips">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:linux-x86"
+                  name = "linux-x86">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:linux-mips64"
+                  name = "linux-mips64">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:windows"
+                  name = "windows">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:target_linux-x86"
+                  name = "target_linux-x86">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:darwin-x86"
+                  name = "darwin-x86">
+                  <FileRef
+                     location = "group:AndroidConfig.h">
+                  </FileRef>
+               </Group>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:select.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_linux-arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:fdo.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_darwin-x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_linux-mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_windows-x86.mk">
+         </FileRef>
+         <Group
+            location = "group:arch"
+            name = "arch">
+            <Group
+               location = "group:mips"
+               name = "mips">
+               <FileRef
+                  location = "group:mips32r6.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips32r2-fp.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips32r2dspr2-fp.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips32r2dsp-fp.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips32-fp.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips32r2-fp-xburst.mk">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:mips64"
+               name = "mips64">
+               <FileRef
+                  location = "group:mips64r6.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:mips64r2.mk">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:x86"
+               name = "x86">
+               <FileRef
+                  location = "group:silvermont.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:haswell.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:ivybridge.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:x86.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:sandybridge.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:x86-atom.mk">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:arm"
+               name = "arm">
+               <FileRef
+                  location = "group:armv7-a.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:armv5te.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:armv5te-vfp.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:armv7-a-neon.mk">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:arm64"
+               name = "arm64">
+               <FileRef
+                  location = "group:armv8-a.mk">
+               </FileRef>
+            </Group>
+            <Group
+               location = "group:x86_64"
+               name = "x86_64">
+               <FileRef
+                  location = "group:silvermont.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:haswell.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:x86_64-atom.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:ivybridge.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:x86_64.mk">
+               </FileRef>
+               <FileRef
+                  location = "group:sandybridge.mk">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:TARGET_linux-arm.mk">
+         </FileRef>
+         <FileRef
+            location = "group:HOST_linux-x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:TARGET_linux-x86.mk">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:proguard_tests.flags">
+      </FileRef>
+      <FileRef
+         location = "group:host_executable.mk">
+      </FileRef>
+      <FileRef
+         location = "group:executable_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:process_wrapper_gdb.cmds">
+      </FileRef>
+      <FileRef
+         location = "group:post_clean.mk">
+      </FileRef>
+      <FileRef
+         location = "group:package_internal.mk">
+      </FileRef>
+      <FileRef
+         location = "group:device.mk">
+      </FileRef>
+      <FileRef
+         location = "group:static_library_internal.mk">
+      </FileRef>
+   </Group>
+   <FileRef
+      location = "group:envsetup.sh">
+   </FileRef>
+   <Group
+      location = "group:libs"
+      name = "libs">
+      <Group
+         location = "group:host"
+         name = "host">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:list.java">
+         </FileRef>
+         <Group
+            location = "group:include"
+            name = "include">
+            <Group
+               location = "group:host"
+               name = "host">
+               <FileRef
+                  location = "group:CopyFile.h">
+               </FileRef>
+               <FileRef
+                  location = "group:Directories.h">
+               </FileRef>
+            </Group>
+         </Group>
+         <FileRef
+            location = "group:CopyFile.c">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:target"
+      name = "target">
+      <Group
+         location = "group:board"
+         name = "board">
+         <Group
+            location = "group:generic_arm64"
+            name = "generic_arm64">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generic_armv5"
+            name = "generic_armv5">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:AndroidBoard.mk">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <Group
+            location = "group:generic_mips"
+            name = "generic_mips">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generic_x86"
+            name = "generic_x86">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <Group
+               location = "group:sepolicy"
+               name = "sepolicy">
+               <FileRef
+                  location = "group:domain.te">
+               </FileRef>
+               <FileRef
+                  location = "group:installd.te">
+               </FileRef>
+               <FileRef
+                  location = "group:healthd.te">
+               </FileRef>
+               <FileRef
+                  location = "group:zygote.te">
+               </FileRef>
+               <FileRef
+                  location = "group:system_server.te">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generic_x86_64"
+            name = "generic_x86_64">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generic"
+            name = "generic">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:AndroidBoard.mk">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <Group
+               location = "group:sepolicy"
+               name = "sepolicy">
+               <FileRef
+                  location = "group:file_contexts">
+               </FileRef>
+               <FileRef
+                  location = "group:bootanim.te">
+               </FileRef>
+               <FileRef
+                  location = "group:shell.te">
+               </FileRef>
+               <FileRef
+                  location = "group:device.te">
+               </FileRef>
+               <FileRef
+                  location = "group:domain.te">
+               </FileRef>
+               <FileRef
+                  location = "group:qemud.te">
+               </FileRef>
+               <FileRef
+                  location = "group:rild.te">
+               </FileRef>
+               <FileRef
+                  location = "group:surfaceflinger.te">
+               </FileRef>
+               <FileRef
+                  location = "group:file.te">
+               </FileRef>
+               <FileRef
+                  location = "group:system_server.te">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:generic_mips64"
+            name = "generic_mips64">
+            <FileRef
+               location = "group:system.prop">
+            </FileRef>
+            <FileRef
+               location = "group:README.txt">
+            </FileRef>
+            <FileRef
+               location = "group:BoardConfig.mk">
+            </FileRef>
+            <FileRef
+               location = "group:device.mk">
+            </FileRef>
+         </Group>
+      </Group>
+      <Group
+         location = "group:product"
+         name = "product">
+         <FileRef
+            location = "group:aosp_arm.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_base.mk">
+         </FileRef>
+         <FileRef
+            location = "group:runtime_common.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_armv7.mk">
+         </FileRef>
+         <FileRef
+            location = "group:generic_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full.mk">
+         </FileRef>
+         <FileRef
+            location = "group:AndroidProducts.mk">
+         </FileRef>
+         <Group
+            location = "group:security"
+            name = "security">
+            <FileRef
+               location = "group:shared.x509.pem">
+            </FileRef>
+            <FileRef
+               location = "group:verity.pk8">
+            </FileRef>
+            <FileRef
+               location = "group:testkey.pk8">
+            </FileRef>
+            <FileRef
+               location = "group:Android.mk">
+            </FileRef>
+            <FileRef
+               location = "group:media.pk8">
+            </FileRef>
+            <FileRef
+               location = "group:platform.x509.pem">
+            </FileRef>
+            <FileRef
+               location = "group:verity_key">
+            </FileRef>
+            <FileRef
+               location = "group:README">
+            </FileRef>
+            <FileRef
+               location = "group:media.x509.pem">
+            </FileRef>
+            <FileRef
+               location = "group:shared.pk8">
+            </FileRef>
+            <FileRef
+               location = "group:verity.x509.pem">
+            </FileRef>
+            <FileRef
+               location = "group:testkey.x509.pem">
+            </FileRef>
+            <FileRef
+               location = "group:platform.pk8">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:aosp_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:verity.mk">
+         </FileRef>
+         <FileRef
+            location = "group:languages_full.mk">
+         </FileRef>
+         <FileRef
+            location = "group:runtime_libart.mk">
+         </FileRef>
+         <FileRef
+            location = "group:base.mk">
+         </FileRef>
+         <FileRef
+            location = "group:core_base.mk">
+         </FileRef>
+         <FileRef
+            location = "group:embedded.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_base_telephony.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:generic_armv5.mk">
+         </FileRef>
+         <FileRef
+            location = "group:languages_small.mk">
+         </FileRef>
+         <FileRef
+            location = "group:core_minimal.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_mips64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:emulator.mk">
+         </FileRef>
+         <FileRef
+            location = "group:telephony.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk.mk">
+         </FileRef>
+         <FileRef
+            location = "group:locales_full.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:runtime_libart_default.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_x86_64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:core_tiny.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_base_telephony.mk">
+         </FileRef>
+         <FileRef
+            location = "group:runtime_libdvm_default.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_phone_arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:core_64_bit.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_arm64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:core.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_base.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_base.mk">
+         </FileRef>
+         <FileRef
+            location = "group:generic_mips.mk">
+         </FileRef>
+         <FileRef
+            location = "group:aosp_mips64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:generic_no_telephony.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:generic.mk">
+         </FileRef>
+         <FileRef
+            location = "group:sdk_x86.mk">
+         </FileRef>
+         <FileRef
+            location = "group:full_mips64.mk">
+         </FileRef>
+         <FileRef
+            location = "group:runtime_libdvm.mk">
+         </FileRef>
+      </Group>
+   </Group>
+   <Group
+      location = "group:tools"
+      name = "tools">
+      <FileRef
+         location = "group:mktarball.sh">
+      </FileRef>
+      <FileRef
+         location = "group:java-event-log-tags.py">
+      </FileRef>
+      <Group
+         location = "group:fs_config"
+         name = "fs_config">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:fs_config.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:post_process_props.py">
+      </FileRef>
+      <FileRef
+         location = "group:Android.mk">
+      </FileRef>
+      <Group
+         location = "group:apicheck"
+         name = "apicheck">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <Group
+            location = "group:etc"
+            name = "etc">
+            <FileRef
+               location = "group:apicheck">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:buildinfo.sh">
+      </FileRef>
+      <Group
+         location = "group:fs_get_stats"
+         name = "fs_get_stats">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:fs_get_stats.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:event_log_tags.py">
+      </FileRef>
+      <Group
+         location = "group:releasetools"
+         name = "releasetools">
+         <FileRef
+            location = "group:img_from_target_files.py">
+         </FileRef>
+         <FileRef
+            location = "group:test_common.py">
+         </FileRef>
+         <FileRef
+            location = "group:make_recovery_patch">
+         </FileRef>
+         <FileRef
+            location = "group:rangelib.py">
+         </FileRef>
+         <FileRef
+            location = "group:img_from_target_files">
+         </FileRef>
+         <FileRef
+            location = "group:add_img_to_target_files.py">
+         </FileRef>
+         <FileRef
+            location = "group:sparse_img.py">
+         </FileRef>
+         <FileRef
+            location = "group:ota_from_target_files">
+         </FileRef>
+         <FileRef
+            location = "group:edify_generator.py">
+         </FileRef>
+         <FileRef
+            location = "group:add_img_to_target_files">
+         </FileRef>
+         <FileRef
+            location = "group:check_target_files_signatures">
+         </FileRef>
+         <FileRef
+            location = "group:common.py">
+         </FileRef>
+         <FileRef
+            location = "group:build_image.py">
+         </FileRef>
+         <FileRef
+            location = "group:sign_target_files_apks">
+         </FileRef>
+         <FileRef
+            location = "group:blockimgdiff.py">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:adbs">
+      </FileRef>
+      <FileRef
+         location = "group:findleaves.py">
+      </FileRef>
+      <FileRef
+         location = "group:warn.py">
+      </FileRef>
+      <FileRef
+         location = "group:product_debug.py">
+      </FileRef>
+      <FileRef
+         location = "group:fileslist.py">
+      </FileRef>
+      <Group
+         location = "group:atree"
+         name = "atree">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:options.h">
+         </FileRef>
+         <FileRef
+            location = "group:atree.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:files.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:fs.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:files.h">
+         </FileRef>
+         <FileRef
+            location = "group:fs.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:check_prereq"
+         name = "check_prereq">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:check_prereq.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:check_builds.sh">
+      </FileRef>
+      <Group
+         location = "group:signapk"
+         name = "signapk">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <Group
+            location = "group:test"
+            name = "test">
+            <FileRef
+               location = "group:run">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:SignApk.java">
+         </FileRef>
+         <FileRef
+            location = "group:SignApk.mf">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:generate-notice-files.py">
+      </FileRef>
+      <Group
+         location = "group:droiddoc"
+         name = "droiddoc">
+         <Group
+            location = "group:templates-sdk"
+            name = "templates-sdk">
+            <FileRef
+               location = "group:gcm_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:packages.cs">
+            </FileRef>
+            <FileRef
+               location = "group:designpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:package.cs">
+            </FileRef>
+            <FileRef
+               location = "group:trailer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:customizations.cs">
+            </FileRef>
+            <FileRef
+               location = "group:samples_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sdkpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header_tabs.cs">
+            </FileRef>
+            <FileRef
+               location = "group:jd_lists_unified.cs">
+            </FileRef>
+            <FileRef
+               location = "group:classes.cs">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <FileRef
+                  location = "group:masthead.cs">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:data.hdf">
+            </FileRef>
+            <FileRef
+               location = "group:timestamp.cs">
+            </FileRef>
+            <FileRef
+               location = "group:head_tag.cs">
+            </FileRef>
+            <FileRef
+               location = "group:navtree_data.cs">
+            </FileRef>
+            <Group
+               location = "group:assets"
+               name = "assets">
+               <Group
+                  location = "group:design"
+                  name = "design">
+                  <FileRef
+                     location = "group:default.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GPL-LICENSE.txt">
+               </FileRef>
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:fullscreen.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.css">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:images"
+                  name = "images">
+                  <FileRef
+                     location = "group:preliminary.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-sg.gif">
+                  </FileRef>
+                  <Group
+                     location = "group:home"
+                     name = "home">
+                     <FileRef
+                        location = "group:icon-about.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:carousel_buttons_sprite.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_bottom.jpg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_board.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-distribute.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gingerdroid.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Android_Dev_Lab_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:froyo-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-design.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:donut-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GDC2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo-2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:eclair-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_announcement.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_s.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ics-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_wheel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:android_adc.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-develop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gdc-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:honeycomb-android.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:resource-big-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:play-circle-grey.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:preview.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-image.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_contribute.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close-white.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_mid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_play.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close-grey_2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_search.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_wrench.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-xml.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_arrow.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-card-default-android.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_robot.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:link-out.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_community_leftDiv.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_design.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_bottom.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrows-up-down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:uiguidelines1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:play-circle-white.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:video-droid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:logo_breadcrumbz.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fullscreen.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_source.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:stack-arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:blog-default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_top.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:folder.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_1.jpg">
+                  </FileRef>
+                  <Group
+                     location = "group:styles"
+                     name = "styles">
+                     <FileRef
+                        location = "group:ico_web.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:open_new_page.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gototop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_good.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_wrong.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus4_blank_port_432.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_wear_square.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers-video@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:helpouts-logo-35.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus5_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span9.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_action.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers-video.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers-video.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_left.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_movie_inline.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_phone_tablet.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:helpouts-logo-35_2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_wear_square_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_up.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus5_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_down.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_use.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers-video@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:callout.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span8.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_right.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers@2x.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:icon_market.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacer.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_main.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_btn_bg.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-generic.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:breadcrumb.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_guidelines_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-manifest.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:grad-rule-qv.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close-white_2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_fade.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sidenav-rule.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:play-circle-grey_2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_check.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close-grey.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_gradient.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_images_sprite.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:play-circle-white_2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:locale.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_world.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-java.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_side.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-eg.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_off.jpg">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:js"
+                  name = "js">
+                  <FileRef
+                     location = "group:docs.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_3p-bundle.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:prettify.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:android-developer-docs.css">
+               </FileRef>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:docpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:footer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:class.cs">
+            </FileRef>
+            <FileRef
+               location = "group:macros_override.cs">
+            </FileRef>
+            <FileRef
+               location = "group:gms_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sample.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sampleindex.cs">
+            </FileRef>
+            <FileRef
+               location = "group:nosidenavpage.cs">
+            </FileRef>
+         </Group>
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <Group
+            location = "group:test"
+            name = "test">
+            <Group
+               location = "group:generics"
+               name = "generics">
+               <FileRef
+                  location = "group:Android.mk">
+               </FileRef>
+               <Group
+                  location = "group:src"
+                  name = "src">
+                  <Group
+                     location = "group:com"
+                     name = "com">
+                     <Group
+                        location = "group:android"
+                        name = "android">
+                        <Group
+                           location = "group:generics"
+                           name = "generics">
+                           <FileRef
+                              location = "group:AdapterView.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:TestComparable.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:TestEnum.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Iface.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Bar.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Foo.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Adapter.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:AbsListView.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:FooBar.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:ListAdapter.java">
+                           </FileRef>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+            <Group
+               location = "group:stubs"
+               name = "stubs">
+               <FileRef
+                  location = "group:Android.mk">
+               </FileRef>
+               <Group
+                  location = "group:expected"
+                  name = "expected">
+                  <Group
+                     location = "group:com"
+                     name = "com">
+                     <Group
+                        location = "group:android"
+                        name = "android">
+                        <Group
+                           location = "group:stubs"
+                           name = "stubs">
+                           <FileRef
+                              location = "group:Annot.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:SomeEnum.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:InterfaceEnum.java">
+                           </FileRef>
+                           <Group
+                              location = "group:a"
+                              name = "a">
+                              <FileRef
+                                 location = "group:SomeInterface.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:A.java">
+                              </FileRef>
+                           </Group>
+                           <FileRef
+                              location = "group:Types.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Parent.java">
+                           </FileRef>
+                           <Group
+                              location = "group:b"
+                              name = "b">
+                              <FileRef
+                                 location = "group:B.java">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:func.sh">
+               </FileRef>
+               <FileRef
+                  location = "group:run.sh">
+               </FileRef>
+               <Group
+                  location = "group:src"
+                  name = "src">
+                  <Group
+                     location = "group:com"
+                     name = "com">
+                     <Group
+                        location = "group:android"
+                        name = "android">
+                        <Group
+                           location = "group:stubs"
+                           name = "stubs">
+                           <FileRef
+                              location = "group:Annot.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:SomeEnum.java">
+                           </FileRef>
+                           <Group
+                              location = "group:hidden"
+                              name = "hidden">
+                              <FileRef
+                                 location = "group:HiddenOuter.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:Hidden.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:PackagePrivate.java">
+                              </FileRef>
+                           </Group>
+                           <FileRef
+                              location = "group:InterfaceEnum.java">
+                           </FileRef>
+                           <Group
+                              location = "group:a"
+                              name = "a">
+                              <FileRef
+                                 location = "group:SomeInterface.java">
+                              </FileRef>
+                              <FileRef
+                                 location = "group:A.java">
+                              </FileRef>
+                           </Group>
+                           <FileRef
+                              location = "group:Types.java">
+                           </FileRef>
+                           <FileRef
+                              location = "group:Parent.java">
+                           </FileRef>
+                           <Group
+                              location = "group:b"
+                              name = "b">
+                              <FileRef
+                                 location = "group:B.java">
+                              </FileRef>
+                           </Group>
+                        </Group>
+                     </Group>
+                  </Group>
+               </Group>
+            </Group>
+         </Group>
+         <Group
+            location = "group:templates-pdk"
+            name = "templates-pdk">
+            <FileRef
+               location = "group:trailer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:customizations.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sdkpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header_tabs.cs">
+            </FileRef>
+            <FileRef
+               location = "group:jd_lists_unified.cs">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <FileRef
+                  location = "group:masthead.cs">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:data.hdf">
+            </FileRef>
+            <FileRef
+               location = "group:head_tag.cs">
+            </FileRef>
+            <Group
+               location = "group:assets"
+               name = "assets">
+               <FileRef
+                  location = "group:android-developer-core.css">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-docs.js">
+               </FileRef>
+               <Group
+                  location = "group:design"
+                  name = "design">
+                  <FileRef
+                     location = "group:ico_web.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_new_page.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_good.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_wrong.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:device_galaxynexus_blank_land_span13.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:device_galaxynexus_blank_port_span9.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_action.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:disclosure_left.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_movie_inline.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_phone_tablet.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:disclosure_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:disclosure_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:device_galaxynexus_blank_port_span5.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:ico_use.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:callout.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:disclosure_right.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:triangle-none.gif">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-resource-browser.css">
+               </FileRef>
+               <FileRef
+                  location = "group:jquery-1.6.2.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:search_autocomplete.js">
+               </FileRef>
+               <Group
+                  location = "group:images"
+                  name = "images">
+                  <FileRef
+                     location = "group:preliminary.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-sg.gif">
+                  </FileRef>
+                  <Group
+                     location = "group:home"
+                     name = "home">
+                     <FileRef
+                        location = "group:carousel_buttons_sprite.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_bottom.jpg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_board.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gingerdroid.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Android_Dev_Lab_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:froyo-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:donut-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GDC2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo-2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:eclair-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_announcement.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_s.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ics-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_wheel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:android_adc.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gdc-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:honeycomb-android.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:resource-big-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_contribute.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_play.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_wrench.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_robot.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_community_leftDiv.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_design.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:uiguidelines1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:video-droid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:logo_breadcrumbz.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_source.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_market.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacer.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_main.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_guidelines_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:grad-rule-qv.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_fade.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sidenav-rule.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_images_sprite.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_world.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_side.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-eg.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-partner-logo.png">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:customizations.js">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-docs.css">
+               </FileRef>
+               <FileRef
+                  location = "group:prettify.js">
+               </FileRef>
+               <FileRef
+                  location = "group:yui-3.3.0-reset-min.css">
+               </FileRef>
+               <FileRef
+                  location = "group:jquery-history.js">
+               </FileRef>
+               <FileRef
+                  location = "group:jdiff_logo.gif">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-resource-browser.js">
+               </FileRef>
+               <FileRef
+                  location = "group:style.css">
+               </FileRef>
+               <FileRef
+                  location = "group:jquery-resizable.min.js">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-docs-devguide.css">
+               </FileRef>
+               <FileRef
+                  location = "group:carousel.js">
+               </FileRef>
+               <FileRef
+                  location = "group:android-developer-reference.js">
+               </FileRef>
+               <FileRef
+                  location = "group:microtemplate.js">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:docpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:footer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sampleindex.cs">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:templates-sac"
+            name = "templates-sac">
+            <FileRef
+               location = "group:gcm_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:packages.cs">
+            </FileRef>
+            <FileRef
+               location = "group:designpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:package.cs">
+            </FileRef>
+            <FileRef
+               location = "group:trailer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:customizations.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sdkpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header_tabs.cs">
+            </FileRef>
+            <FileRef
+               location = "group:jd_lists_unified.cs">
+            </FileRef>
+            <FileRef
+               location = "group:classes.cs">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <FileRef
+                  location = "group:masthead.cs">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:data.hdf">
+            </FileRef>
+            <FileRef
+               location = "group:timestamp.cs">
+            </FileRef>
+            <FileRef
+               location = "group:head_tag.cs">
+            </FileRef>
+            <FileRef
+               location = "group:navtree_data.cs">
+            </FileRef>
+            <Group
+               location = "group:assets"
+               name = "assets">
+               <Group
+                  location = "group:design"
+                  name = "design">
+                  <FileRef
+                     location = "group:default.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GPL-LICENSE.txt">
+               </FileRef>
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:fullscreen.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.css">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:images"
+                  name = "images">
+                  <FileRef
+                     location = "group:preliminary.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-sg.gif">
+                  </FileRef>
+                  <Group
+                     location = "group:home"
+                     name = "home">
+                     <FileRef
+                        location = "group:icon-about.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:carousel_buttons_sprite.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_bottom.jpg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_board.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-distribute.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gingerdroid.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Android_Dev_Lab_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:froyo-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-design.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:donut-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GDC2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo-2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:eclair-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_announcement.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_s.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ics-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_wheel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:android_adc.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-develop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gdc-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:honeycomb-android.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:resource-big-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_contribute.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_mid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_play.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_search.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_wrench.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_arrow.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_robot.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_community_leftDiv.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_design.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_bottom.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrows-up-down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:uiguidelines1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:video-droid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:logo_breadcrumbz.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fullscreen.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_source.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:blog-default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_top.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_1.jpg">
+                  </FileRef>
+                  <Group
+                     location = "group:styles"
+                     name = "styles">
+                     <FileRef
+                        location = "group:ico_web.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:open_new_page.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gototop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_good.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_wrong.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span9.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_action.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_left.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_movie_inline.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_phone_tablet.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_up.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_down.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_use.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:callout.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span8.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_right.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:icon_market.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacer.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_main.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_btn_bg.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_guidelines_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:grad-rule-qv.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sac_logo@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_fade.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sidenav-rule.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_check.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_gradient.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_images_sprite.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sac_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:locale.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_world.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_side.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-eg.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_off.jpg">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:js"
+                  name = "js">
+                  <FileRef
+                     location = "group:docs.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_3p-bundle.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:prettify.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:android-developer-docs.css">
+               </FileRef>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:docpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:footer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:class.cs">
+            </FileRef>
+            <FileRef
+               location = "group:gms_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sampleindex.cs">
+            </FileRef>
+            <FileRef
+               location = "group:nosidenavpage.cs">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:templates-sdk-dyn"
+            name = "templates-sdk-dyn">
+            <FileRef
+               location = "group:gcm_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:packages.cs">
+            </FileRef>
+            <FileRef
+               location = "group:designpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:package.cs">
+            </FileRef>
+            <FileRef
+               location = "group:trailer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:customizations.cs">
+            </FileRef>
+            <FileRef
+               location = "group:samples_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sdkpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header_tabs.cs">
+            </FileRef>
+            <FileRef
+               location = "group:jd_lists_unified.cs">
+            </FileRef>
+            <FileRef
+               location = "group:classes.cs">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <FileRef
+                  location = "group:masthead.cs">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:data.hdf">
+            </FileRef>
+            <FileRef
+               location = "group:timestamp.cs">
+            </FileRef>
+            <FileRef
+               location = "group:head_tag.cs">
+            </FileRef>
+            <FileRef
+               location = "group:navtree_data.cs">
+            </FileRef>
+            <Group
+               location = "group:assets"
+               name = "assets">
+               <Group
+                  location = "group:design"
+                  name = "design">
+                  <FileRef
+                     location = "group:default.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:GPL-LICENSE.txt">
+               </FileRef>
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:fullscreen.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.css">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:images"
+                  name = "images">
+                  <FileRef
+                     location = "group:preliminary.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-sg.gif">
+                  </FileRef>
+                  <Group
+                     location = "group:home"
+                     name = "home">
+                     <FileRef
+                        location = "group:icon-about.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:carousel_buttons_sprite.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_bottom.jpg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_board.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-distribute.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gingerdroid.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Android_Dev_Lab_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:froyo-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-design.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:donut-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GDC2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo-2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:eclair-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_announcement.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_s.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ics-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_wheel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:android_adc.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-develop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gdc-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:honeycomb-android.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:resource-big-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-image.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_contribute.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_mid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_play.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_search.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_wrench.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-xml.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_arrow.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-card-default-android.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_robot.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:link-out.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_community_leftDiv.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_design.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_bottom.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrows-up-down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:uiguidelines1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:video-droid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:logo_breadcrumbz.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fullscreen.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_source.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:stack-arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo@2x.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:blog-default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_top.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:folder.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_1.jpg">
+                  </FileRef>
+                  <Group
+                     location = "group:styles"
+                     name = "styles">
+                     <FileRef
+                        location = "group:ico_web.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:open_new_page.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gototop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_good.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_wrong.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus4_blank_port_432.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers-video@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus5_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span9.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_action.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers-video.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers-video.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_left.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_movie_inline.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_phone_tablet.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-developers.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_up.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_nexus5_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_down.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_use.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers-video@2x.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:callout.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span8.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_right.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:notice-designers@2x.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:icon_market.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacer.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_main.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_btn_bg.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-generic.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:breadcrumb.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_guidelines_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-manifest.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:grad-rule-qv.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_fade.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sidenav-rule.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_check.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_gradient.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_images_sprite.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:locale.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_world.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:file-java.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_side.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-eg.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_off.jpg">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:js"
+                  name = "js">
+                  <FileRef
+                     location = "group:docs.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_3p-bundle.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:prettify.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:android-developer-docs.css">
+               </FileRef>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:docpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:footer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:class.cs">
+            </FileRef>
+            <FileRef
+               location = "group:gms_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sample.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sampleindex.cs">
+            </FileRef>
+            <FileRef
+               location = "group:nosidenavpage.cs">
+            </FileRef>
+         </Group>
+         <Group
+            location = "group:templates-ds"
+            name = "templates-ds">
+            <FileRef
+               location = "group:gcm_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:packages.cs">
+            </FileRef>
+            <FileRef
+               location = "group:designpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:package.cs">
+            </FileRef>
+            <FileRef
+               location = "group:trailer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:customizations.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sdkpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header.cs">
+            </FileRef>
+            <FileRef
+               location = "group:header_tabs.cs">
+            </FileRef>
+            <FileRef
+               location = "group:jd_lists_unified.cs">
+            </FileRef>
+            <FileRef
+               location = "group:classes.cs">
+            </FileRef>
+            <Group
+               location = "group:components"
+               name = "components">
+               <FileRef
+                  location = "group:masthead.cs">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:data.hdf">
+            </FileRef>
+            <FileRef
+               location = "group:timestamp.cs">
+            </FileRef>
+            <FileRef
+               location = "group:head_tag.cs">
+            </FileRef>
+            <FileRef
+               location = "group:navtree_data.cs">
+            </FileRef>
+            <Group
+               location = "group:assets"
+               name = "assets">
+               <FileRef
+                  location = "group:android-developer-core.css">
+               </FileRef>
+               <Group
+                  location = "group:design"
+                  name = "design">
+                  <FileRef
+                     location = "group:default.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:triangle-none.gif">
+               </FileRef>
+               <FileRef
+                  location = "group:GPL-LICENSE.txt">
+               </FileRef>
+               <Group
+                  location = "group:css"
+                  name = "css">
+                  <FileRef
+                     location = "group:fullscreen.css">
+                  </FileRef>
+                  <FileRef
+                     location = "group:default.css">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:images"
+                  name = "images">
+                  <FileRef
+                     location = "group:preliminary.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-sg.gif">
+                  </FileRef>
+                  <Group
+                     location = "group:home"
+                     name = "home">
+                     <FileRef
+                        location = "group:icon-about.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:carousel_buttons_sprite.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_bottom.jpg">
+                     </FileRef>
+                     <FileRef
+                        location = "group:sdk-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_board.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-distribute.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gingerdroid.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:Android_Dev_Lab_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:froyo-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-design.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:maps-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:donut-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_l.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GDC2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:IO-logo-2011.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:io-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:devphone-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:eclair-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_announcement.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:google-plus.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:adc2_s.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ics-android.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:bg_home_carousel_wheel.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:android_adc.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:market-small.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:GTV_icon_large.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:icon-develop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gdc-logo.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:honeycomb-android.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:resource-big-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_more.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android-developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_contribute.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-closed-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_mid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_play.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_search.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:android_wrench.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_download.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_arrow.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_robot.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_community_leftDiv.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_design.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_bottom.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrows-up-down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:uiguidelines1.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:video-droid.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:logo_breadcrumbz.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:fullscreen.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:open_source.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-tutorial.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:dac_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:blog-default.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_top.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_up.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_1.jpg">
+                  </FileRef>
+                  <Group
+                     location = "group:styles"
+                     name = "styles">
+                     <FileRef
+                        location = "group:ico_web.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:open_new_page.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:gototop.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_good.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_wrong.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span13.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span9.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_action.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_left.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_movie_inline.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_phone_tablet.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_up.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_down.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_port_span5.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:ico_use.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:callout.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:device_galaxynexus_blank_land_span8.png">
+                     </FileRef>
+                     <FileRef
+                        location = "group:disclosure_right.png">
+                     </FileRef>
+                  </Group>
+                  <FileRef
+                     location = "group:icon_market.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:spacer.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:triangle-opened-small.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_left_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_main.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:quicknav_btn_bg.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s2.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-s.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow_bluelink_down.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_guidelines_logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_3.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-left.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:grad-rule-qv.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-video.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:body-gradient-tab.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:arrow-right-develop.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_2.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-big-sample.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resource-article.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_fade.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:sidenav-rule.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:slide_large_1.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:more_check.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_gradient.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:developers-logo.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:bg_images_sprite.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_on.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-e2.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:locale.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:icon_world.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:right_off.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:hr_gray_side.jpg">
+                  </FileRef>
+                  <FileRef
+                     location = "group:resizable-eg.gif">
+                  </FileRef>
+                  <FileRef
+                     location = "group:close.png">
+                  </FileRef>
+                  <FileRef
+                     location = "group:left_off.jpg">
+                  </FileRef>
+               </Group>
+               <Group
+                  location = "group:js"
+                  name = "js">
+                  <FileRef
+                     location = "group:docs.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:global-libraries-combined.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:prettify.js">
+                  </FileRef>
+                  <Group
+                     location = "group:grid"
+                     name = "grid">
+                     <FileRef
+                        location = "group:960.gridder.css">
+                     </FileRef>
+                     <FileRef
+                        location = "group:960.gridder.js">
+                     </FileRef>
+                  </Group>
+               </Group>
+               <FileRef
+                  location = "group:android-developer-docs.css">
+               </FileRef>
+               <FileRef
+                  location = "group:jdiff_logo.gif">
+               </FileRef>
+               <Group
+                  location = "group:scroller"
+                  name = "scroller">
+                  <FileRef
+                     location = "group:jquery.jscrollpane.min.js">
+                  </FileRef>
+                  <FileRef
+                     location = "group:jquery.mousewheel.min.js">
+                  </FileRef>
+               </Group>
+               <FileRef
+                  location = "group:LICENSE.txt">
+               </FileRef>
+            </Group>
+            <FileRef
+               location = "group:docpage.cs">
+            </FileRef>
+            <FileRef
+               location = "group:footer.cs">
+            </FileRef>
+            <FileRef
+               location = "group:class.cs">
+            </FileRef>
+            <FileRef
+               location = "group:gms_navtree_data.cs">
+            </FileRef>
+            <FileRef
+               location = "group:sampleindex.cs">
+            </FileRef>
+            <FileRef
+               location = "group:nosidenavpage.cs">
+            </FileRef>
+         </Group>
+      </Group>
+      <FileRef
+         location = "group:check_radio_versions.py">
+      </FileRef>
+      <FileRef
+         location = "group:filter-product-graph.py">
+      </FileRef>
+      <FileRef
+         location = "group:diff_package_overlays.py">
+      </FileRef>
+      <FileRef
+         location = "group:dump-package-stats">
+      </FileRef>
+      <FileRef
+         location = "group:parsedeps.py">
+      </FileRef>
+      <FileRef
+         location = "group:print_module_licenses.sh">
+      </FileRef>
+      <FileRef
+         location = "group:fixlinebreaks.sh">
+      </FileRef>
+      <FileRef
+         location = "group:merge-event-log-tags.py">
+      </FileRef>
+      <FileRef
+         location = "group:compare_fileslist.py">
+      </FileRef>
+      <Group
+         location = "group:acp"
+         name = "acp">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:README">
+         </FileRef>
+         <FileRef
+            location = "group:acp.c">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:zipalign"
+         name = "zipalign">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:ZipEntry.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:ZipAlign.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:ZipFile.cpp">
+         </FileRef>
+         <FileRef
+            location = "group:README.txt">
+         </FileRef>
+         <FileRef
+            location = "group:ZipEntry.h">
+         </FileRef>
+         <FileRef
+            location = "group:ZipFile.h">
+         </FileRef>
+      </Group>
+      <Group
+         location = "group:rgb2565"
+         name = "rgb2565">
+         <FileRef
+            location = "group:Android.mk">
+         </FileRef>
+         <FileRef
+            location = "group:to565.c">
+         </FileRef>
+      </Group>
+      <FileRef
+         location = "group:java-layers.py">
+      </FileRef>
+   </Group>
+</Workspace>
