@@ -1014,7 +1014,7 @@ FULL_SYSTEMIMAGE_DEPS := $(INTERNAL_SYSTEMIMAGE_FILES) $(INTERNAL_USERIMAGES_DEP
 # We put installed-files.txt ahead of image itself in the dependency graph
 # so that we can get the size stat even if the build fails due to too large
 # system image.
-INSTALLED_FILES_FILE := $(PRODUCT_OUT)/installed-files.txt
+INSTALLED_FILES_FILE := $(PRODUCT_OUT)/installed-files-$(SCIAPS_INSTRUMENT_TYPE).txt
 $(INSTALLED_FILES_FILE): $(FULL_SYSTEMIMAGE_DEPS)
 	@echo Installed file list: $@
 	@mkdir -p $(dir $@)
@@ -1065,7 +1065,7 @@ endef
 $(BUILT_SYSTEMIMAGE): $(FULL_SYSTEMIMAGE_DEPS) $(INSTALLED_FILES_FILE)
 	$(call build-systemimage-target,$@)
 
-INSTALLED_SYSTEMIMAGE := $(PRODUCT_OUT)/system.img
+INSTALLED_SYSTEMIMAGE := $(PRODUCT_OUT)/system-$(SCIAPS_INSTRUMENT_TYPE).img
 SYSTEMIMAGE_SOURCE_DIR := $(TARGET_OUT)
 
 $(INSTALLED_SYSTEMIMAGE): $(BUILT_SYSTEMIMAGE) $(RECOVERY_FROM_BOOT_PATCH) | $(ACP)
