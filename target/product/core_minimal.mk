@@ -24,7 +24,6 @@ PRODUCT_NAME := core
 
 PRODUCT_PACKAGES += \
     BackupRestoreConfirmation \
-    DownloadProvider \
     HTMLViewer \
     MediaProvider \
     PackageInstaller \
@@ -65,7 +64,6 @@ PRODUCT_PACKAGES += \
     make_ext4fs \
     e2fsck \
     resize2fs \
-    mms-common \
     screencap \
     sensorservice \
     telephony-common \
@@ -74,6 +72,10 @@ PRODUCT_PACKAGES += \
     voip-common \
     webview \
     wifi-service
+
+#PRODUCT_PACKAGES += \
+     DownloadProvider \
+     mms-common
 
 PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.software.webview.xml:system/etc/permissions/android.software.webview.xml
@@ -90,9 +92,11 @@ PRODUCT_BOOT_JARS := \
     telephony-common \
     voip-common \
     ims-common \
-    mms-common \
     android.policy \
     apache-xml \
+
+#PRODUCT_BOOT_JARS += \
+     mms-common
 
 # The order of PRODUCT_SYSTEM_SERVER_JARS matters.
 PRODUCT_SYSTEM_SERVER_JARS := \
