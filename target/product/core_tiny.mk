@@ -76,8 +76,10 @@ PRODUCT_PACKAGES += \
     telephony-common \
     voip-common \
     logd \
-    mms-common \
     wifi-service
+
+#PRODUCT_PACKAGES += \
+     mms-common
 
 # The order matters
 PRODUCT_BOOT_JARS := \
@@ -91,10 +93,12 @@ PRODUCT_BOOT_JARS := \
     telephony-common \
     voip-common \
     ims-common \
-    mms-common \
     android.policy \
     apache-xml \
     nullwebview \
+
+#PRODUCT_BOOT_JARS += \
+     mms-common
 
 # The order of PRODUCT_SYSTEM_SERVER_JARS matters.
 PRODUCT_SYSTEM_SERVER_JARS := \

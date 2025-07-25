@@ -25,7 +25,6 @@ PRODUCT_PACKAGES := \
 	Dialer \
 	EmulatorSmokeTests \
 	Fallback \
-	Gallery \
 	GestureBuilder \
 	LegacyCamera \
 	librs_jni \
@@ -33,8 +32,6 @@ PRODUCT_PACKAGES := \
 	libWnnEngDic \
 	libWnnJpnDic \
 	LiveWallpapersPicker \
-	Mms \
-	Music \
 	OpenWnn \
 	Protips \
 	rild \
@@ -45,6 +42,11 @@ PRODUCT_PACKAGES := \
 	sqlite3 \
 	SystemUI \
 	WidgetPreview
+
+#PRODUCT_PACKAGES += \
+        Gallery \
+        Mms \
+        Music
 
 # Define the host tools and libs that are parts of the SDK.
 -include sdk/build/product_sdk.mk
